@@ -46,10 +46,3 @@ int _printf(const char *format, ...)
 
     return printed_chars;
 }
-
-int main(void)
-{
-    _printf("Hello, %s! Your favorite number is %d%%.\n", "Alice", 42);
-
-    return 0;
-}
